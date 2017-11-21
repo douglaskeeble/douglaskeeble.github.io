@@ -1,0 +1,150 @@
+body {
+	background:lightCyan;
+	font-family: 'Lora', serif;
+	letter-spacing: .1rem;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.customJumbo {
+	margin-top: 10rem;
+	margin-bottom: 0;
+	padding-bottom: 5rem;
+	opacity: .8;
+	text-align: center;
+}
+
+.customNav {
+	text-align: right;
+	word-spacing: 1.5rem;
+}
+
+.in1 {
+	line-height:300%;
+	margin-left:-5rem;
+}
+
+.in2 {
+	line-height:300%;
+}
+
+.in3 {
+	line-height:300%;
+	margin-left:5em;
+}
+
+.navbar {
+	font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-brand {
+	color: DeepSkyBlue !important;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 1rem;
+  border-bottom: .05rem solid #e5e5e5;
+}
+
+.profile {
+	margin-top: 5rem;
+}
+
+.resume {
+	line-height: 200%;
+}
+
+.carousel-caption {
+	opacity: .7;
+	background: black;
+    color: #fff !important;
+	padding: 3rem;
+	max-width: 100%;
+	width: 100%;
+	left: 0;
+	bottom:0;
+}
+.carousel-caption h3{
+	margin-top:0;
+}
+
+.carousel-caption a{
+	text-decoration: none;
+	color: white;
+}
+
+.carousel-caption a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.carousel-inner img{
+	border: 1px solid black;
+	width:100%;
+	margin: auto;
+}
+
+.carousel-indicators li{
+	border-color: black;
+	background-color: white;
+}
+
+.carousel-control {
+	background-image: none !important;
+	color: black;
+}
+
+.companyName {
+	color: coral;
+	font-variant: small-caps;
+	font-weight:bold;
+	letter-spacing: .1rem;
+}
+
+.about-ditty {
+	display: block;
+	margin-left: 5rem;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+
+/* Custom page footer */
+footer {
+  padding-top: 1rem;
+  color: #777;
+}
+
+/* Customize container */
+@media (min-width: 61em) {
+  .container {
+    max-width: 80rem;
+  }
+}
+@media (max-width: 61em){
+  .container {
+    max-width: 40rem;
+  }
+  .carousel-caption{
+	position:relative;
+	top: 2rem;
+	margin-bottom: 2rem;
+  }
+  .carousel-control {
+	  top:-10rem;
+  }
+  .carousel-indicators {
+	  display: none;
+  }
+}
